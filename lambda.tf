@@ -2,8 +2,8 @@
 
 data "archive_file" "lambda" {
   type        = "zip"
-  source_file = "./files/"
-  output_path = "./files/${var.lambda_file_name}.zip"
+  source_file = "./files/lambda_function.py"
+  output_path = "./files/lambda_function.zip"
 }
 
 # Defines the lambda function to be created using file
