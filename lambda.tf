@@ -8,7 +8,7 @@ data "archive_file" "lambda" {
 
 # Defines the lambda function to be created using file
 
-resource "aws_lambda_function" "own_lambda" {
+resource "aws_lambda_function" "lambda_function" {
   function_name    = var.lambda_function_name
   handler          = "lambda_function.lambda_handler"
   runtime          = "nodejs14.x"
