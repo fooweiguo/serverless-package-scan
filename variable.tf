@@ -1,7 +1,7 @@
 variable lambda_function_name {
     description     = "Name of lambda function"
     type            = string
-    default         = "lambda_function"
+    default         = "weiguo-package-scan-lambda-fn"
 }
 
 variable lambda_file_name {
