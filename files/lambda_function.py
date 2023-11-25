@@ -4,8 +4,8 @@ import boto3
 print('Loading function')
 
 def lambda_handler(event, context):
-    print("Hello world!")
+    print("Hello, World!")
     return {
         'statusCode': 200,
-        'body': 'Hello world!'
+        'body': 'Hello, World!'
     }
