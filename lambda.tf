@@ -2,7 +2,7 @@
 
 data "archive_file" "lambda" {
   type        = "zip"
-  source_file = ["./files/lambda_function.py", "./files/${var.lambda_file_name}.js"]
+  source_dir = "./files/"
   output_path = "./files/${var.lambda_file_name}.zip"
 }
 
